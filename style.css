@@ -1,0 +1,194 @@
+img {
+    max-width: 100%;
+}
+
+/* Header Section */
+.header {
+    background: #3498DB;
+}
+
+.header-logo h1 {
+    color: #fff;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.header-logo a {
+    text-decoration: none;
+}
+
+.primary-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.primary-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.primary-menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 28px;
+    line-height: 80px;
+    border-right: 1px solid #fff;
+}
+
+.primary-menu ul li a:hover {
+    background: #476b83;
+    transform: .5s;
+}
+
+/* Banner Section */
+.banner {
+    background: url(img/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 149px 0;
+}
+
+.banner-text h1 {
+	display: inline-block;
+	font-size: 70px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	background: rgba(87, 86, 94, 0.95);
+	border-radius: 5px;
+	margin-bottom: 25px;
+	color: #fff;
+	padding: 10px 31px;
+    font-family: sans-serif;
+}
+
+.banner-text h2 {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 300;
+	background: rgba(127, 166, 204, 0.97);
+	padding: 15px 30px;
+	border-radius: 5px;
+	color: #521d59;
+    font-family: sans-serif;
+}
+
+/* About Section */
+.about {
+    background: #ecf0f1;
+}
+
+.about-item h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+/* Service Section */
+.service-section {
+    background: #f9f9f9;
+}
+
+.card {
+    border-style: none;
+}
+
+.card span {
+    font-size: 35px;
+    color: #fff;
+    background: #3498DB;
+    width: 55px;
+    margin: auto;
+    border-radius: 20px 0 20px 0;
+}
+
+.card h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 20px;
+}
+
+/* Product Section  */
+.product-right h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.product-right ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-right ul li {
+    font-size: 19px;
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.content-section p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content-section h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.content-section .card {
+    padding: 15px;
+}
+
+.content-section .card h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.content-section .card textarea {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content-section .card form input {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content-section .card button {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #6278DF;
+}
+
+.content-section .card button:hover {
+    background: #fff;
+    color: #6278DF;
+    border: 1px solid #6278DF;
+}
+
+/* Footer */
+.footer-section {
+    background: #2C3E50;
+}
+
+.footer-section p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    padding-right: 35px;
+    font-size: 20px;
+    text-decoration: none;
+}
